@@ -1,0 +1,114 @@
+@import '../../styles/variables.scss';
+
+.container_menu_main {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+
+  .content_main_side {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: $width_side_menu;
+    background: $color_side_menu;
+
+    .content_avatar {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      top: 10px;
+      width: 100%;
+      color: $color_white;
+
+      & > img {
+        height: 70px;
+        width: 70px;
+        border-radius: 50px;
+        border: 3px solid $color_white;
+        padding: 4px;
+        object-fit: cover;
+      }
+
+      & > span {
+        font-size: 1.1rem;
+        font-weight: 500;
+      }
+    }
+
+    .content_item_nav {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      .item {
+        cursor: pointer;
+        width: 100%;
+        padding: .5rem 0;
+        margin: .3rem 1rem;
+        padding-left: 1.5rem;
+        border-radius: 15px 0 0 15px;
+        transition: .24s;
+        list-style: none;
+
+        & > a {
+          display: flex;
+          align-items: center;
+          gap: 6px;
+          font-size: 1.2rem;
+          margin-top: .5rem;
+          text-decoration: none;
+          color: $color_white;
+        }
+
+        &:hover {
+          background: $color_active_item;
+        }
+
+        &.active {
+          font-weight: 500;
+          background: $color_active_item;
+        }
+
+      }
+    }
+
+    .content_logout {
+      cursor: pointer;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 70%;
+      gap: 7px;
+      padding: 1rem 0;
+      bottom: 20px;
+      font-size: 1.2rem;
+      border-radius: 15px;
+      color: $color_white;
+      transition: .24s;
+
+      &:hover {
+        background: $color_active_item;
+      }
+    }
+  }
+
+  .content_right {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - $width_side_menu);
+    height: 100%;
+
+    .children {
+      height: calc(100% - $height_top_menu);
+    }
+  }
+
+}

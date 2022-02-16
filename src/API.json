@@ -1,0 +1,85 @@
+{
+  "count": 10,
+  "first": 1,
+  "begin": 2,
+  "end": 0,
+  "has_next": null,
+  "has_prev": null,
+  "last": "last",
+  "next": null,
+  "num_pages": 2,
+  "page_number": 1,
+  "previous": null,
+  "results": [
+    {
+      "id": 1,
+      "name": "Geladeira",
+      "totalValue": 3000,
+      "installmentValue": 250,
+      "purchaseDate": "05/01/2022",
+      "format": "Mensal",
+      "totalInstallment": 12,
+      "currentInstallment": 3
+    },
+    {
+      "id": 2,
+      "name": "Geladeira",
+      "totalValue": 3000,
+      "installmentValue": 250,
+      "purchaseDate": "05/01/2022",
+      "format": "Mensal",
+      "totalInstallment": 12,
+      "currentInstallment": 3
+    },
+    {
+      "id": 3,
+      "name": "Geladeira",
+      "totalValue": 3000,
+      "installmentValue": 250,
+      "purchaseDate": "05/01/2022",
+      "format": "Mensal",
+      "totalInstallment": 12,
+      "currentInstallment": 3
+    },
+    {
+      "id": 4,
+      "name": "Geladeira",
+      "totalValue": 3000,
+      "installmentValue": 250,
+      "purchaseDate": "05/01/2022",
+      "format": "Mensal",
+      "totalInstallment": 12,
+      "currentInstallment": 3
+    },
+    {
+      "id": 6,
+      "name": "Geladeira",
+      "totalValue": 3000,
+      "installmentValue": 250,
+      "purchaseDate": "05/01/2022",
+      "format": "Mensal",
+      "totalInstallment": 12,
+      "currentInstallment": 3
+    },
+    {
+      "id": 7,
+      "name": "Geladeira",
+      "totalValue": 3000,
+      "installmentValue": 250,
+      "purchaseDate": "05/01/2022",
+      "format": "Mensal",
+      "totalInstallment": 12,
+      "currentInstallment": 3
+    },
+    {
+      "id": 8,
+      "name": "Geladeira",
+      "totalValue": 3000,
+      "installmentValue": 250,
+      "purchaseDate": "05/01/2022",
+      "format": "Mensal",
+      "totalInstallment": 12,
+      "currentInstallment": 3
+    }
+  ]
+}
