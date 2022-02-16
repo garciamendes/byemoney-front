@@ -15,13 +15,13 @@ import CurrencyFormat from 'react-currency-format'
 // Project
 import { TableBody } from '../../components/Table/tableBody'
 import { TableFooter } from '../../components/Table/tableFooter'
+import { Loader } from '../../components/Loader'
 
 // Local
 import './home.scss'
 
 // Preview
 import api from '../../API.json'
-import { Loader } from '../../components/Loader'
 
 export function Home() {
   // Others
